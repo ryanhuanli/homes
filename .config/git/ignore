@@ -1,0 +1,217 @@
+# /* # unhide by default */
+# !.vscode/
+
+.git/
+#!.gitlab-ci.yml
+# !.gitignore
+# !.ignore
+
+# doc/
+# *.pdf
+# *.ppt*
+# *.xls*
+# *.ods*
+# *.doc*
+# *.csv
+# *.fm
+# *.mif
+# *.frm
+
+# binary files
+*.o
+*.so
+*.bin
+*.exe
+# *.gif
+# *.png
+*.dat
+*.aocv
+*.lib
+*.db
+*.gz
+*.zip
+*.sqlite*
+perf.data*
+flamegraph*.svg
+
+# output
+*.cmd*
+# *.log*
+*.pid
+*.*rpt*
+*.lsf/
+sim/
+# out/
+output*/
+results/
+logs/
+tmp/
+temp*/
+
+# common
+core.*
+*.bak
+*.old
+*.orig
+.nfs*
+.empty
+.empty_file
+lost+found/
+ref/
+bak/
+*.SVM
+
+# rust
+target/
+# Cargo.lock
+
+# python
+venv*/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.ipy
+.ipynb_checkpoints
+.Python
+*.egg-info/
+*.dist-info/
+develop-eggs/
+eggs/
+.eggs/
+*.egg
+*.whl
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# Python Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+#build/
+*.build/
+dist/
+*.dist/
+
+# vim
+Session.vim
+*~
+.netrwhist
+tags
+
+# nodejs
+node_modules/
+yarn.lock
+package-lock.json
+
+# other tools
+DAT/
+translations/
+LC_MESSAGES/
+font/
+fonts/
+zoneinfo/
+lib/
+lib64/
+
+
+# EDA
+*.rundir*/
+LICENSE
+LEC.tmp.*/
+INCA_libs/
+*.linux26*/
+spyglass_lc*
+*.lib++/
+*.elab++/
+simv.daidir/
+
+hdlscore/
+hal/
+ifv/
+
+.SOS/
+SOS/
+sos.log
+.svn/
+
+# FSL
+.pi_md/
+.pi_log/
+.pcsd/
+.picron/
+.waminfo/
+.cache/
+.SYNC/
+verilog_FILENAMES_*/
+
+# MTK
+testbench/
+validation/
+*verification_plan/
+vectors/
+vmanager/
+vcf/
+ForDelete_*/
+perl-5.26.1-rhel6/
+# TkUDI/
+# TKUDI/
+pgv*/
+sidefile_*/
+*spice*/
+laker_*/
+apl/
+apollo/
+gds/
+cnodleak/
+leakage_map/
+synopsys*/
+lint/
+datasheet/
+ctl/
+lvlib/
+tmax/
+*mbff/
+mdt/
+ndm/
+/CAD/
+IP/lib/
+IP/macro/ram*/
+incoming/
+[uxc]pf/
+swudi*/
+*examples/
+driver/
+atpg/
+*.orig/
+sta/
+mtbf/
+cdc/
+scan/
+ipman/ipman.html
+ipman/ipman_out.yaml 
+
+# arm_release/
+v8_asm/
+
+# my own tools
+*.vshdb/
+vsh.log
+*.vest/
+vest.log
+
+@eaDir/
+.DS_Store
+
+disko.txt
+disko.svg
